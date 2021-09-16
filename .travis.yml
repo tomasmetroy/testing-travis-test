@@ -1,9 +1,9 @@
 language: 
- — ruby
+  — ruby
 rvm:
- — 2.7.3
+  — '2.7.3'
 cache:
- — bundler
+  — bundler
 script:
- — bundle install
- — ruby test/clock_test.rb
+  — bundle install
+  — ruby test/clock_test.rb
